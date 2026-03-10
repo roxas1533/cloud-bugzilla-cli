@@ -21,4 +21,4 @@ jobs:
           test -z "$(gofumpt -l .)" || (gofumpt -d . && exit 1)
 
       - name: golangci-lint
-        uses: golangci/golangci-lint-action@v6
+        uses: golangci/golangci-lint-action@v7
